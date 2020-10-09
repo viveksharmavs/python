@@ -1,0 +1,4 @@
+#to find area of circle
+from math import pi
+r = float(input("Input the radious of circle : "))
+print("the area of circle is  "   + str(r) + " is: " + str(pi * r**2))
